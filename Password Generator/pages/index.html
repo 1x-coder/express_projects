@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>passgen</title>
+    <link rel="stylesheet" href="/globals.css" />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <main class="main-passgen">
+      <form id="frm" class="form-passgen" method="post">
+        <h2 class="title-passgen">PASSGEN</h2>
+        <input
+          class="input-passgen"
+          readonly
+          type="text"
+          placeholder="Password"
+        />
+        <section>
+          <input
+            class="btn-passgen"
+            type="submit"
+            value="Generate"
+            formaction="/generate"
+          />
+          <input
+            class="btn-passgen"
+            type="submit"
+            value="Save"
+            formaction="/save"
+          />
+          <input
+            class="btn-passgen"
+            type="submit"
+            value="Options"
+            formaction="/options"
+          />
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

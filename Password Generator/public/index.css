@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+}
+body {
+  background-color: var(--black-color-v1);
+  color: var(--gray-color-v2);
+  font-family: var(--font-default);
+}
+main,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.title-passgen {
+  font-family: var(--font-logo);
+  font-size: 64px;
+}
+.input-passgen {
+  margin: 10px;
+  width: 30%;
+  height: 6%;
+  border: 1px solid var(--gray-color-v1);
+  border-radius: 2.5px;
+  background-color: var(--black-color-v2);
+  color: var(--gray-color-v2);
+  padding: 15px;
+}
+.btn-passgen{
+  background-color: var(--black-color-v1);
+  border: 1px solid var(--gray-color-v1);
+  color: var(--gray-color-v2);
+  padding: 12px;
+  margin: 10px;
+}
+.btn-passgen:hover{
+  background-color: var(--gray-color-v1);
+  cursor: pointer;
+}

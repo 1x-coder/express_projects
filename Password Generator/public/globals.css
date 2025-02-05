@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Megrim&display=swap");
+:root {
+  --font-logo: "Megrim";
+  --font-default: "Inter";
+  --black-color-v1: #101010;
+  --black-color-v2: #151515;
+  --gray-color-v1: #242424;
+  --gray-color-v2: #777777;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>qr-code-generator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=no"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./client/css/main.css">
+    <script type="module" src="./client/js/main.js"></script> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a id="app-title" href="">QR Code Maker</a>
+      </div>      
+    </header>
+    <main>
+      <div class="content">
+        <div id="output-container" class="container">
+          <div id="input-container" class="container">
+            <label for="qrdata" class="label">Enter QR-code value</label>
+            <input type="text" id="qrdata" />
+            <div class="container" id="buttons">
+              <button id="submit" >Create</button>
+              <button id="clear" >Clear</button>
+            </div>
+           
+          </div>
+          <div class="break"></div> 
+            <img id="qrcode" src="" alt="qrcode alt text" style="display: none;"></img>
+            <div class="break"></div> 
+            <p id="qrvalue" style="display: none;"> </p></img>
+          </div>
+          <div id="footer">
+          <footer>
+            <p>Arkenfar 2020 &copy; All Rights Reserved</p>
+          </footer>
+          </div>
+      </div>
+      
+    </main>  
+  </body>
+</html>
